@@ -16,19 +16,6 @@
 		</fileSet>
 
 		<fileSet>
-			<directory>${basedir}/target/apidocs</directory>
-			<outputDirectory>/docs/javadoc</outputDirectory>
-		</fileSet>
-
-		<fileSet>
-			<directory>${basedir}/target</directory>
-			<outputDirectory>/docs</outputDirectory>
-			<includes>
-				<include>*-javadoc.jar</include>
-			</includes>
-		</fileSet>
-
-		<fileSet>
 			<directory>${project.basedir}</directory>
 			<outputDirectory>/</outputDirectory>
 			<includes>
@@ -38,11 +25,5 @@
 		</fileSet>
 
 	</fileSets>
-
-	<dependencySets>
-		<dependencySet>
-			<outputDirectory>/lib</outputDirectory>
-		</dependencySet>
-	</dependencySets>
 
 </component>
