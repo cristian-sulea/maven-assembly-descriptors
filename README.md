@@ -1,3 +1,3 @@
 # Maven Assembly Descriptors
 
-A set of useful Maven™ assembly descriptors grouped in a project to be easily shared between projects.
+A set of useful Mavenâ„¢ assembly descriptors grouped in a project to be easily shared between projects.
