@@ -1,0 +1,64 @@
+	-----
+	${project.description}
+	-----
+	Cristian Sulea
+	-----
+	2016-05-20
+	-----
+
+
+${project.name}
+	
+	${project.description}
+
+	Usage:
+
++--
+<build>
+  <plugins>
+
+    ...
+
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-assembly-plugin</artifactId>
+      <version>${version.plugin.assembly}</version>
+      <executions>
+        <execution>
+          <phase>package</phase>
+          <goals>
+            <goal>single</goal>
+          </goals>
+        </execution>
+      </executions>
+      <dependencies>
+        <dependency>
+          <groupId>net.sulea.cristian</groupId>
+          <artifactId>maven-assembly-descriptors</artifactId>
+          <version>${project.version}</version>
+        </dependency>
+      </dependencies>
+      <configuration>
+        <descriptorRefs>
+          <descriptorRef>dist-bin</descriptorRef>
+          <descriptorRef>dist-src</descriptorRef>
+        </descriptorRefs>
+      </configuration>
+    </plugin>
+
+    ...
+
+  </plugins>
+</build>
++--
+
+	Assembly Descriptors:
+
+	* {{{./dist-bin.html}dist-bin}}
+	
+	* {{{./dist-src.html}dist-src}}
+	
+	[]
+
+
+#parse("${folderSiteResourcesParent}/footer.apt.vm")
