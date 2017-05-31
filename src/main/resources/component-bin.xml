@@ -7,7 +7,6 @@
   <fileSets>
 
     <fileSet>
-      <directory>../${basedir}</directory>
       <outputDirectory>/</outputDirectory>
       <includes>
         <include>README*</include>
@@ -17,12 +16,12 @@
     </fileSet>
 
     <fileSet>
-      <directory>${basedir}/target/apidocs</directory>
+      <directory>target/apidocs</directory>
       <outputDirectory>/docs/javadoc</outputDirectory>
     </fileSet>
 
     <fileSet>
-      <directory>${basedir}/target</directory>
+      <directory>target</directory>
       <outputDirectory>/docs</outputDirectory>
       <includes>
         <include>*-javadoc.jar</include>

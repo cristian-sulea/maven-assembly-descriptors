@@ -7,7 +7,6 @@
   <fileSets>
 
     <fileSet>
-      <directory>../${basedir}</directory>
       <outputDirectory>/</outputDirectory>
       <includes>
         <include>README*</include>
@@ -17,7 +16,6 @@
     </fileSet>
 
     <fileSet>
-      <directory>${project.basedir}</directory>
       <outputDirectory>/</outputDirectory>
       <includes>
         <include>/src/main/**</include>
