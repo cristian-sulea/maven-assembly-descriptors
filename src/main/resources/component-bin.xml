@@ -16,6 +16,11 @@
     </fileSet>
 
     <fileSet>
+      <directory>target/assembly-include</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+
+    <fileSet>
       <directory>target/apidocs</directory>
       <outputDirectory>/docs/javadoc</outputDirectory>
     </fileSet>
