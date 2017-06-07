@@ -18,8 +18,7 @@
     <fileSet>
       <outputDirectory>/</outputDirectory>
       <includes>
-        <include>/src/main/**</include>
-        <include>/src/test/**</include>
+        <include>src/**</include>
       </includes>
     </fileSet>
 

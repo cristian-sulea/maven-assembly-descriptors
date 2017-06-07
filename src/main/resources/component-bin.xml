@@ -16,7 +16,7 @@
     </fileSet>
 
     <fileSet>
-      <directory>target/assembly-include</directory>
+      <directory>target/extra-resources</directory>
       <outputDirectory>/</outputDirectory>
     </fileSet>
 
